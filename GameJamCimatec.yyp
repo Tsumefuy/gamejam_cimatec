@@ -36,7 +36,7 @@
   },
   "name":"GameJamCimatec",
   "resources":[
-    {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
+    {"id":{"name":"obj_play","path":"objects/obj_play/obj_play.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"get_inputs","path":"scripts/get_inputs/get_inputs.yy",},},
     {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},},
