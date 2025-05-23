@@ -51,3 +51,5 @@ else
 {
 	key_enter=false;
 }
+
+//Alteração
