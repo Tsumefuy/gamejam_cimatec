@@ -1,7 +1,7 @@
 
 vendooPlayer = false;
 
-var anguloEntreRaios = 2;
+var anguloEntreRaios = 5;
 var direcaoRaio = 1;
 var direcao = image_angle;
 	
@@ -12,10 +12,7 @@ for (var raios = 0 ; raios <= quantidadeRaios ; raios++){
 			
 		if (position_empty(xx, yy) == false) {
 				
-			if(instance_place(xx, yy, obj_wall) != noone) {
-				break;
-			}
-			if(instance_place(xx, yy, obj_player) != noone) {
+			if(instance_place(xx, yy, ParedeTeste) != noone) {
 				vendooPlayer = true;
 				break;
 			}
