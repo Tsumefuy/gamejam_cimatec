@@ -16,40 +16,20 @@ else
 	key_right=0;
 }
 
-if keyboard_check_pressed(ord("S")) or keyboard_check_pressed(vk_down) 
+if keyboard_check(vk_up) or keyboard_check(ord("W"))
 {
-	fall=true;
+	key_up=1;
 }
 else
 {
-	fall=false;
+	key_up=0;
 }
 
-if (keyboard_check_pressed(vk_space) or keyboard_check_pressed(ord("W")) or keyboard_check_pressed(vk_up)) and fall = false
+if keyboard_check(vk_down) or keyboard_check(ord("S"))
 {
-	key_jump=1;
+	key_down=1;
 }
 else
 {
-	key_jump=0;
+	key_down=0;
 }
-
-if keyboard_check(vk_lshift) or keyboard_check(vk_rshift) 
-{
-	key_dash=true;
-}
-else
-{
-	key_dash=false;
-}
-
-if keyboard_check(vk_enter)
-{
-	key_enter=true;
-}
-else
-{
-	key_enter=false;
-}
-
-//Alteração
