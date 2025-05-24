@@ -37,6 +37,9 @@
     "name":"spr_playerTest",
     "path":"sprites/spr_playerTest/spr_playerTest.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"spr_playerMaskTest",
+    "path":"sprites/spr_playerMaskTest/spr_playerMaskTest.yy",
+  },
   "visible":true,
 }
