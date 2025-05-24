@@ -1,7 +1,7 @@
 draw_self();
 
 if (debug) {
-	var anguloEntreRaios = 2;
+	var anguloEntreRaios = 5;
 	var direcaoRaio = 1;
 	var direcao = image_angle;
 	
@@ -12,12 +12,7 @@ if (debug) {
 			
 			if (position_empty(xx, yy) == false) {
 				
-				if(instance_place(xx, yy, obj_wall) != noone) {
-					draw_set_color(c_fuchsia);
-					draw_circle(xx, yy, 5, false);
-					break;
-				}
-				if(instance_place(xx, yy, obj_player) != noone) {
+				if(instance_place(xx, yy, ParedeTeste) != noone) {
 					draw_set_color(c_fuchsia);
 					draw_circle(xx, yy, 5, false);
 					break;
@@ -35,5 +30,5 @@ if (debug) {
 }
 
 if (vendooPlayer){
-	draw_sprite(spr_ViuOPlayer, 0 , x, y - 50);
+	draw_sprite(ViuOPlayer, 0 , x, y - 50);
 }
