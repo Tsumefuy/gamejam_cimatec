@@ -45,7 +45,6 @@
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"acceleration","path":"scripts/acceleration/acceleration.yy",},},
     {"id":{"name":"get_inputs","path":"scripts/get_inputs/get_inputs.yy",},},
-    {"id":{"name":"spr_playerMaskTest","path":"sprites/spr_playerMaskTest/spr_playerMaskTest.yy",},},
     {"id":{"name":"spr_playerTest","path":"sprites/spr_playerTest/spr_playerTest.yy",},},
     {"id":{"name":"spr_testInimigo","path":"sprites/spr_testInimigo/spr_testInimigo.yy",},},
     {"id":{"name":"spr_ViuOPlayer","path":"sprites/spr_ViuOPlayer/spr_ViuOPlayer.yy",},},
