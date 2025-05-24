@@ -7,7 +7,7 @@ move_dir = 0;
 
 spd_v = 0;
 spd_h = 0;
-spd_max = 4;
+spd_max = 6;
 acc = .5;
 dcc = .5;
 
