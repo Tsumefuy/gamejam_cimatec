@@ -1,28 +1,19 @@
-if (place_meeting(x+spd, y, obj_inimigo_cima)) {
-	hspd = 0;
-	vspd = -spd;
-	dir = acceleration(dir, 90, -30);
+with (obj_inimigo) {
+	if (instance_exists(obj_projectile) && instance_exists(obj_distracao_zone)) {
+		if (obj_projectile.spd == 0) {
+			if (position_meeting(obj_projectile.x, obj_projectile.y, obj_distracao_zone) &&
+			    position_meeting(x, y, obj_distracao_zone)) {
+				dir_anterior = dir;
+				state = state_distraido;
+				distraido = true;
+			}
+		}
+	}
 }
 
-if (place_meeting(x+spd, y, obj_inimigo_baixo)) {
-	hspd = 0;
-	vspd = spd;
-	dir = acceleration(dir, 270, -30);
-}
 
-if (place_meeting(x+spd, y, obj_inimigo_direita)) {
-	hspd = spd;
-	vspd = 0;
-	dir = acceleration(dir, 0, -30);
-}
-
-if (place_meeting(x+spd, y, obj_inimigo_esquerda)) {
-	hspd = -spd;
-	vspd = 0;
-	dir = acceleration(dir, 180, -30);
-}
-
-image_angle = dir;
+state();
 
 x+=hspd;
 y+=vspd;
+

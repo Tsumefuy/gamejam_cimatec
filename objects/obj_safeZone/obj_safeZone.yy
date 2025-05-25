@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_test",
-    "path":"sprites/spr_test/spr_test.yy",
+    "name":"spr_safeZone",
+    "path":"sprites/spr_safeZone/spr_safeZone.yy",
   },
   "spriteMaskId":null,
   "visible":true,

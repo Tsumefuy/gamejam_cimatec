@@ -1,6 +1,7 @@
 event_inherited();
 
 vendooPlayer = false;
+global.playervisto = false;
 
 var anguloEntreRaios = 5;
 var direcaoRaio = 1;
@@ -12,12 +13,13 @@ for (var raios = 0 ; raios <= quantidadeRaios ; raios++){
 		var yy = y + lengthdir_y(tamanhoLinha, direcao);
 			
 		if (position_empty(xx, yy) == false) {
-				
-			if(instance_place(xx, yy, obj_wall) != noone) {
-				break;
+			if(place_meeting(xx,yy,obj_wall)) {
+					break;
 			}
-			if(instance_place(xx, yy, obj_player) != noone) {
+			
+			if(place_meeting(xx, yy, obj_player)) {
 				vendooPlayer = true;
+				global.playervisto = true;
 				break;
 			}
 		}

@@ -29,11 +29,13 @@ state();
 
 #endregion
 
+dir = point_direction(x, y, mouse_x, mouse_y);
+
 if instance_position(x,y,obj_safeZone) {
 	if (global.ansiedade < 100) global.ansiedade += 0.02;
 } else {
 	with obj_inimigo {
-		if (vendooPlayer) global.ansiedade = acceleration(global.ansiedade, 0, .02);
+		if (vendooPlayer) global.ansiedade = acceleration(global.ansiedade, 0, .1);
 		else global.ansiedade = acceleration(global.ansiedade, 0, .003);
 	}
 }

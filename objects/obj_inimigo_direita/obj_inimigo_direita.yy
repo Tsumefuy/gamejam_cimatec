@@ -6,13 +6,10 @@
   "name":"obj_inimigo_direita",
   "overriddenProperties":[],
   "parent":{
-    "name":"Inimigo_Mov",
-    "path":"folders/Objects/Inimigo_Mov.yy",
+    "name":"NPC_mov",
+    "path":"folders/Objects/NPC_mov.yy",
   },
-  "parentObjectId":{
-    "name":"obj_direcoes",
-    "path":"objects/obj_direcoes/obj_direcoes.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_test",
-    "path":"sprites/spr_test/spr_test.yy",
+    "name":"spr_direita",
+    "path":"sprites/spr_direita/spr_direita.yy",
   },
   "spriteMaskId":null,
   "visible":false,

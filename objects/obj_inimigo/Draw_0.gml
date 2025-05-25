@@ -12,11 +12,12 @@ if (debug) {
 			
 			if (position_empty(xx, yy) == false) {
 				
-				if(instance_place(xx, yy, obj_wall) != noone) {
+				if(instance_position(xx,yy,obj_wall) != noone) {
 					draw_set_color(c_fuchsia);
 					draw_circle(xx, yy, 5, false);
 					break;
 				}
+				
 				if(instance_place(xx, yy, obj_player) != noone) {
 					draw_set_color(c_fuchsia);
 					draw_circle(xx, yy, 5, false);

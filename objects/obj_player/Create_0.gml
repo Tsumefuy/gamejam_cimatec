@@ -11,6 +11,8 @@ spd_max = 6;
 acc = .5;
 dcc = .1;
 
+arremessado = false;
+
 global.ansiedade = 100;
 
 state_free = function() {
