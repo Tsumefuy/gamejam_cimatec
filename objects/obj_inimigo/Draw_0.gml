@@ -1,7 +1,7 @@
-draw_self();
+event_inherited();
 
 if (debug) {
-	var anguloEntreRaios = 2;
+	var anguloEntreRaios = 4.5;
 	var direcaoRaio = 1;
 	var direcao = image_angle;
 	

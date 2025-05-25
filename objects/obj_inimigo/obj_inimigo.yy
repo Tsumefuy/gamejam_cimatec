@@ -14,8 +14,8 @@
     "path":"folders/Objects.yy",
   },
   "parentObjectId":{
-    "name":"obj_wall",
-    "path":"objects/obj_wall/obj_wall.yy",
+    "name":"obj_entity",
+    "path":"objects/obj_entity/obj_entity.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -39,8 +39,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_testInimigo",
-    "path":"sprites/spr_testInimigo/spr_testInimigo.yy",
+    "name":"spr_inimigo_idle",
+    "path":"sprites/spr_inimigo_idle/spr_inimigo_idle.yy",
   },
   "spriteMaskId":null,
   "visible":true,

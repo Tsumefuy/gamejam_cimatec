@@ -10,8 +10,8 @@
   "name":"obj_entity",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Inimigo_Mov",
+    "path":"folders/Objects/Inimigo_Mov.yy",
   },
   "parentObjectId":null,
   "persistent":false,

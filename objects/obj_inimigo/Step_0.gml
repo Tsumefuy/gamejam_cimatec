@@ -1,7 +1,8 @@
+event_inherited();
 
 vendooPlayer = false;
 
-var anguloEntreRaios = 2;
+var anguloEntreRaios = 5;
 var direcaoRaio = 1;
 var direcao = image_angle;
 	
