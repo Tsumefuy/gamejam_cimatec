@@ -34,6 +34,9 @@
     {"$GMObjectProperty":"v1","%Name":"quantidadeRaios","filters":[],"listItems":[],"multiselect":false,"name":"quantidadeRaios","rangeEnabled":true,"rangeMax":30.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"30","varType":1,},
     {"$GMObjectProperty":"v1","%Name":"tamanho_raios","filters":[],"listItems":[],"multiselect":false,"name":"tamanho_raios","rangeEnabled":true,"rangeMax":512.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"512","varType":1,},
     {"$GMObjectProperty":"v1","%Name":"debug","filters":[],"listItems":[],"multiselect":false,"name":"debug","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"True","varType":3,},
+    {"$GMObjectProperty":"v1","%Name":"caminho","filters":[
+        "GMPath",
+      ],"listItems":[],"multiselect":false,"name":"caminho","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"pat_Caminho","path":"paths/pat_Caminho/pat_Caminho.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"pat_Caminho","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

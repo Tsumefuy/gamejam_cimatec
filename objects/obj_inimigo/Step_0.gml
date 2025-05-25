@@ -1,6 +1,7 @@
 
 vendooPlayer = false;
 
+
 var anguloEntreRaios = 2;
 var direcaoRaio = 1;
 var direcao = image_angle;
@@ -29,3 +30,11 @@ direcao += (anguloEntreRaios * raios) * direcaoRaio;
 direcaoRaio *= -1;
 	
 }
+
+if (path_speed > 0){
+	image_angle = angulo_original;
+}
+if (path_speed < 0){
+	image_angle = angulo_voltando;
+}
+

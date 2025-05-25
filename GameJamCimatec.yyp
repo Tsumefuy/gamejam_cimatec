@@ -42,6 +42,8 @@
     {"id":{"name":"obj_inimigo","path":"objects/obj_inimigo/obj_inimigo.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},
+    {"id":{"name":"pat_Caminho","path":"paths/pat_Caminho/pat_Caminho.yy",},},
+    {"id":{"name":"pat_Caminho2","path":"paths/pat_Caminho2/pat_Caminho2.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"acceleration","path":"scripts/acceleration/acceleration.yy",},},
     {"id":{"name":"get_inputs","path":"scripts/get_inputs/get_inputs.yy",},},
