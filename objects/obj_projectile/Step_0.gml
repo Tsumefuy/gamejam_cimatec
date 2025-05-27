@@ -1,3 +1,10 @@
+if(global.pause){
+	image_speed = 0;
+	exit;
+}else{
+	image_speed = 1;
+}
+
 image_angle = acceleration(image_angle, image_angle + 50 * spd, 25);
 
 if place_meeting(x + lengthdir_x(hspd, dir), y, obj_wall) {

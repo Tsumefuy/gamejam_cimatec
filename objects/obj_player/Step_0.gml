@@ -1,3 +1,10 @@
+if(global.pause){
+	image_speed = 0;
+	exit;
+}else{
+	image_speed = 1;
+}
+
 script_execute(get_inputs);
 
 #region COLISÃO E MOV
@@ -29,6 +36,13 @@ state();
 
 #endregion
 
+
+if(global.pause){
+	image_speed = 0;
+	exit;
+}else{
+	image_speed = 1;
+}
 dir = point_direction(x, y, mouse_x, mouse_y);
 
 if instance_position(x,y,obj_safeZone) {
@@ -38,4 +52,8 @@ if instance_position(x,y,obj_safeZone) {
 		if (vendooPlayer) global.ansiedade = acceleration(global.ansiedade, 0, .1);
 		else global.ansiedade = acceleration(global.ansiedade, 0, .003);
 	}
+}
+
+if (global.ansiedade == 0){
+	room_goto(rm_GameOver);
 }
